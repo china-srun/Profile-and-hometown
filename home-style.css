@@ -1,0 +1,212 @@
+body{
+    font-family: Garamond, serif;
+    background-color: #e7e6e6;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30px;
+    background-color: #FFFFFF;
+    box-shadow: lightgray 1px 1px 20px;
+    padding: 2px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+a:hover{
+    color: #DD4124;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+}
+
+
+.back a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.back a:hover{
+    color: #DD4124;
+}
+
+.header-container img{
+    height: 800px;
+    width: 100%;
+}
+
+.header-container{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.header-text{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*moves an element form its current position (X-axis and Y-axis) */
+    font-size: 50px;
+}
+
+.back{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 25px;
+}
+
+.back a{
+    text-decoration: none;
+    color: black;
+}
+
+.location{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.location a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+}
+
+.location p{
+    letter-spacing: 2px;
+    width: 100px;
+    height: 20px;
+}
+
+.location a:hover{
+    color: #DD4124;
+}
+
+.body-container{
+    height: 2820px;
+    background-color: white;
+    position: relative;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 600px;
+    border-radius: 20px;
+    box-shadow: rgb(98, 97, 97) 1px 1px 25px 1px;
+}
+
+.body-container h1{
+    padding: 20px;
+    text-decoration: underline;
+}
+
+
+.about-place{
+    color: rgb(110, 104, 104);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 20px;
+    padding-top: 1px;
+}
+
+.about-place img{
+    width: 400px;
+    box-shadow: lightgray 2px 2px 15px 5px;
+    margin-left: 30px;
+}
+
+
+.places>h4{
+    margin-left: 40px;
+    margin-top: 1px;
+}
+
+.kohpen{
+    padding-left: 80px;
+}
+
+.kohpen img{
+    height: 550px;
+    width: 1060px;
+    box-shadow: lightgray 2px 2px 20px 5px;
+}
+
+.kohpen p{
+    margin-right: 100px;
+    color: rgb(110, 104, 104);
+}
+
+.pps{
+    padding-left: 70px;
+}
+.pps img{
+    box-shadow: lightgray 2px 2px 15px 5px;
+    margin: 10px;
+    height: 300px;
+    width: 500px;
+}
+
+.pps p{
+    color: rgb(110, 104, 104);
+    padding-right: 100px;
+    padding-left: 0px;
+}
+
+.food{
+    color: rgb(110, 104, 104);
+    margin-left: 70px;
+    margin-right: 100px;
+}
+
+.food img{
+    box-shadow: lightgray 2px 2px 15px 5px;
+    width: 500px;
+    height: 350px;
+    margin: 10px;
+}
+
+
+.footer{
+    height: 270px;
+    text-align: center;
+}
+  
+.contact i{
+    width: 30px;
+    margin: 10px;
+    margin-top: 1px;
+}
+  
+.copyright{
+    text-align: center;
+    height: 25px;
+    box-shadow: lightgray 1px 1px 20px;
+    font-size: 13px;
+}
+
+.icon{
+    color: black;
+}
+
+.icon:hover{
+    color:#DD4124
+}
